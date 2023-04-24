@@ -15,7 +15,7 @@ a = a / 10;
 b = a;
 if (c < 0)
 {
-_putchar(-);
+_putchar('-');
 b = -b; 
 a = -a;
 c = -c;
@@ -34,12 +34,12 @@ b = a;
 while (e > 0)
 {
 d = b / e;
-_putchar(d + 0);
+_putchar(d + '0');
 b -= (d * e);
 e /= 10;
 i++;
 }
 }
-_putchar(c + 0);
+_putchar(c + '0');
 return (i);
 }
