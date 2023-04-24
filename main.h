@@ -8,5 +8,5 @@
 
 int _printf(const char *format, ...);
 int fun_integer(va_list args);
- 
+int _putchar(char c);
 #endif
