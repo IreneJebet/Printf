@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdarg.h>
 #include "main.h"
 /**
  * _printf - printf function
