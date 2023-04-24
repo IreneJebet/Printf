@@ -35,7 +35,7 @@ while (e > 0)
 {
 d = b / e;
 _putchar(d + '0');
-b -= (d * e);
+b -= (d *e);
 e /= 10;
 i++;
 }
