@@ -16,7 +16,7 @@ b = a;
 if (c < 0)
 {
 _putchar('-');
-b = -b; 
+b = -b;
 a = -a;
 c = -c;
 i++;
