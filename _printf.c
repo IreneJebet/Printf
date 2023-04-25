@@ -39,3 +39,4 @@ _putchar(*p), num++;
 }
 va_end(arguments);
 return (num);
+}
