@@ -1,9 +1,9 @@
 #include "main.h"
-/**
- * _printf - printf function
- * @format: arguments
- * Return: number of characters printed
- */
+/** 
+  * _printf - printf function 
+  * @format: arguments 
+  * Return: number of characters printed 
+  */
 int _printf(const char *format, ...)
 {
 	va_list arguments;
@@ -28,7 +28,7 @@ int _printf(const char *format, ...)
 					num += fun_string(arguments);
 					break;
 				case 'c':
-					num += fun_char(arguments);
+					num += fun_character(arguments);
 					break;
 				case '%':
 					_putchar('%'), num++;
@@ -46,6 +46,6 @@ int _printf(const char *format, ...)
 		else
 			_putchar(*p), num++;
 	}
-va_end(arguments);
-return (num);
-}
+	va_end(arguments);
+	return(num);
+	}
