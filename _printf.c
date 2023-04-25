@@ -1,9 +1,9 @@
 #include "main.h"
 /** 
-  * _printf - printf function 
-  * @format: arguments 
-  * Return: number of characters printed 
-  */
+* _printf - printf function
+* @format: arguments
+* Return: number of characters printed
+*/
 int _printf(const char *format, ...)
 {
 	va_list arguments;
