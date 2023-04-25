@@ -28,7 +28,7 @@ int _printf(const char *format, ...)
 					num += fun_string(arguments);
 					break;
 				case 'c':
-					num += fun_character(arguments);
+					num += fun_char(arguments);
 					break;
 				case '%':
 					_putchar('%'), num++;
