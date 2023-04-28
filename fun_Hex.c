@@ -16,7 +16,7 @@ c = 0;
 z = 0;
 if (x == 0)
 {
-_putchar(0);
+_putchar('0');
 return (1);
 }
 
@@ -51,7 +51,7 @@ c = 0;
 z = 0;
 if (x == 0)
 {
-_putchar(0);
+_putchar('0');
 return (1);
 }
 
