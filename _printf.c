@@ -39,6 +39,18 @@ break;
 case 'b':
 num += fun_bin(arguments);
 break;
+case 'u':
+num += fun_uns(arguments);
+break;
+case 'x':
+num += fun_hex(arguments);
+break;
+case 'X':
+num += fun_Hex(arguments);
+break;
+case 'o':
+num += fun_oct(arguments);
+break;
 default:
 _putchar('%'), _putchar(*p), num += 2;
 }
