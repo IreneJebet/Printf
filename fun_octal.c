@@ -15,7 +15,7 @@ x = va_arg(arg, int);
 
 if (x == 0)
 {
-_putchar(0);
+_putchar('0');
 return (1);
 }
 
@@ -26,7 +26,7 @@ x /= 8;
 c++;
 }
 for (i = c - 1; i >= 0; i--)
-_putchar(ar[i] + 0);
+_putchar(ar[i] + '0');
 return (c);
 }
 
