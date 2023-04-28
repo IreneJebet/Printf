@@ -10,7 +10,7 @@ int fun_bin(va_list arg)
 {
 unsigned int x;
 int i, n;
-ar[100];
+int ar[100];
 
 x = va_arg(arg, int);
 
