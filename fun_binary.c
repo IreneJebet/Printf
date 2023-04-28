@@ -16,7 +16,7 @@ x = va_arg(arg, int);
 
 if (x == 0)
 {
-putchar(0);
+_putchar('0');
 return (1);
 }
 i = 0;
@@ -28,6 +28,6 @@ i++;
 }
 
 for (n = i - 1; n >= 0; n--)
-putchar(ar[n] + 0);
+_putchar(ar[n] + '0');
 return (i);
 }
