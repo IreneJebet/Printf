@@ -13,4 +13,6 @@ int _putchar(char c);
 int fun_character(va_list c);
 int fun_string(va_list s);
 int _strlen(char *s);
+int fun_bin(va_list arg);
+
 #endif
